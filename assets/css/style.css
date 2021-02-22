@@ -1,0 +1,853 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        @font-face {
+            font-family: 'TT Hover';
+            src: url(/assets/fonts/tt-hoves/TT\ Hoves\ Regular.otf);
+        }
+        
+        .Rectangle45 {
+            position: absolute;
+            width: 700px;
+            height: 800px;
+            left: 0px;
+            top: 0px;
+            background: #E95258;
+        }
+        
+        .Rectangle46 {
+            position: absolute;
+            width: 700px;
+            height: 800px;
+            left: 700px;
+            top: 0px;
+            background: #F9F9F9;
+        }
+        
+        .img748 {
+            position: absolute;
+            width: 395px;
+            height: 557px;
+            /* left: 330px; */
+            top: 243px;
+            /* background: (748.png); */
+            transform: matrix(1, 0, 0, 1, 0, 0);
+        }
+        
+        .imgD011 {
+            position: absolute;
+            width: 425px;
+            height: 488px;
+            left: 273px;
+            top: 312px;
+            /* background: url(new_MIS002_D01.png); */
+        }
+        
+        .main {
+            position: relative;
+            width: 1400px;
+            height: 6574px;
+            /* background: #32495E; */
+        }
+        
+        .component11 {
+            position: absolute;
+            width: 1170px;
+            height: 45px;
+            right: 115px;
+            top: 20px;
+            /* background-color: aqua; */
+        }
+        
+        .compicon1 {
+            position: absolute;
+            left: 0%;
+            right: 95.44%;
+            top: 0%;
+            bottom: 31.63%;
+            /* background: #32495E; */
+        }
+        
+        .compicon2 {
+            position: absolute;
+            left: 0.69%;
+            right: 94.02%;
+            top: 16.33%;
+            bottom: 0%;
+            /* background: #F9F9F9; */
+        }
+        
+        .tulpar {
+            position: absolute;
+            left: 7.69%;
+            right: 82.39%;
+            top: 15.6%;
+            bottom: 17.54%;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            /* or 100% */
+            /* 3 */
+            color: #F9F9F9;
+        }
+        
+        .liDeco {
+            position: absolute;
+            left: 53.68%;
+            /* right: 41.88%; */
+            top: -8.26%;
+            ;
+            bottom: 33.14%;
+        }
+        
+        .liDeco ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            /* font-family: TT Hoves;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px; */
+            /* or 129% */
+            /* 1 */
+            /* color: #32495E; */
+        }
+        
+        .liDeco li a {
+            text-decoration: none;
+            color: #32495E;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 17px
+        }
+        
+        .liDeco ul li a:hover {
+            color: #E95258;
+        }
+        
+        .group63 {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            left: 100px;
+            top: 200px;
+        }
+        
+        .group63 h1 {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 36px;
+            /* or 129% */
+            text-transform: uppercase;
+            color: #32495E;
+        }
+        
+        .group63 p {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #32495E;
+            width: 250px;
+            height: 119px;
+        }
+        
+        .group63 ul {
+            position: absolute;
+            list-style-image: url(/assets/icons/Ellipse\ 6.svg);
+            list-style-position: inside;
+            margin: 0;
+            padding: 0;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #32495E;
+        }
+        
+        .group63 ul li span {
+            position: relative;
+            /* display: flex; */
+            left: 12px;
+        }
+        
+        .component1 {
+            position: absolute;
+            left: 0px;
+            top: 440px;
+            width: 700px;
+            height: 800px;
+        }
+        
+        .component1 .button {
+            background-color: transparent;
+            border: 1px solid #32495E;
+            box-sizing: border-box;
+            border-radius: 25px;
+            Width: 160px;
+            Height: 50px;
+            color: #32495E;
+            /* padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px; */
+            cursor: pointer;
+        }
+        
+        .component1 .button:hover {
+            background-color: #E95258;
+            color: #F9F9F9;
+            border: 1px solid white;
+        }
+        
+        .group101 {
+            position: relative;
+            /* position: absolute; */
+            display: flex;
+            width: 365px;
+            height: 90px;
+            left: 208px;
+            top: 705px;
+            /* background-color: yellow; */
+        }
+        
+        .figure1 {
+            position: absolute;
+            /* display: block; */
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 10px;
+            border-radius: 50%;
+            /* font-size: 25px;
+                    text-align: center; */
+            /* margin-right: 10px; */
+            background: #C33A7C;
+            border: 1px solid #FFFFFF;
+            /* line-height: 1.7em; */
+            box-shadow: 0 0 0 5px rgba(195, 58, 124, 0.3);
+        }
+        
+        .figure1 img {
+            position: absolute;
+            /* display: inline-block; */
+            width: 19px;
+            height: 19px;
+            top: 15px;
+            left: 15px;
+        }
+        
+        .figure2 {
+            position: absolute;
+            /* display: block; */
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 80px;
+            border-radius: 50%;
+            /* font-size: 25px;
+                   text-align: center; */
+            /* margin-right: 10px; */
+            background: #32495E;
+            ;
+            border: 1px solid #FFFFFF;
+            /* line-height: 1.7em; */
+            box-shadow: 0 0 0 5px rgba(50, 73, 94, 0.3);
+        }
+        
+        .figure2 img {
+            position: absolute;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            top: 15px;
+            left: 15px;
+        }
+        
+        .figure3 {
+            position: absolute;
+            /* display: block; */
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 150px;
+            border-radius: 50%;
+            /* font-size: 25px;
+                  text-align: center; */
+            /* margin-right: 10px; */
+            background: #4598FF;
+            border: 1px solid #FFFFFF;
+            /* line-height: 1.7em; */
+            box-shadow: 0 0 0 5px rgba(27, 60, 150, 0.3);
+        }
+        
+        .figure3 img {
+            position: absolute;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            top: 15px;
+            left: 15px;
+        }
+        
+        .figure4 {
+            position: absolute;
+            /* display: block; */
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 220px;
+            border-radius: 50%;
+            /* font-size: 25px;
+                 text-align: center; */
+            /* margin-right: 10px; */
+            background: #14AC51;
+            border: 1px solid #FFFFFF;
+            /* line-height: 1.7em; */
+            box-shadow: 0 0 0 5px rgba(17, 149, 70, 0.3);
+        }
+        
+        .figure4 img {
+            position: absolute;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            top: 15px;
+            left: 15px;
+        }
+        
+        .figure5 {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 20px;
+            left: 305px;
+            border-radius: 50%;
+            background: #E95258;
+            border: 1px solid #FFFFFF;
+            box-shadow: 0 0 0 20px rgba(233, 82, 88, 0.3);
+        }
+        
+        .figure5 ul {
+            position: absolute;
+            display: flex;
+            top: 0px;
+            left: -13px;
+        }
+        
+        .figure5 ul li {
+            margin-right: 10px;
+            color: white;
+        }
+        
+        .group64 {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            left: 100px;
+            top: 200px;
+        }
+        
+        .group64 h1 {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 36px;
+            /* or 129% */
+            text-transform: uppercase;
+            color: #F9F9F9;
+            text-align: right;
+        }
+        
+        .group64 p {
+            position: absolute;
+            right: 0;
+            top: 90px;
+            width: 300px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #F9F9F9;
+            text-align: right;
+        }
+        
+        .group64 ul {
+            position: absolute;
+            right: 0;
+            top: 240px;
+            list-style-image: url(/assets/icons/Ellipse_white.svg);
+            list-style-position: inside;
+            margin: 0;
+            padding: 0;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #F9F9F9;
+            text-align: right;
+            direction: rtl;
+        }
+        
+        .group64 ul li span {
+            position: relative;
+            /* display: flex; */
+            left: -12px;
+        }
+        
+        .component2 {
+            position: absolute;
+            left: 340px;
+            top: 440px;
+            width: 700px;
+            height: 800px;
+        }
+        
+        .component2 .button {
+            background-color: #E95258;
+            border: 1px solid #F9F9F9;
+            box-sizing: border-box;
+            border-radius: 25px;
+            Width: 160px;
+            Height: 50px;
+            color: #F9F9F9;
+            /* padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px; */
+            cursor: pointer;
+        }
+        
+        .component2 .button:hover {
+            background-color: #F9F9F9;
+            color: #32495E;
+            border: 1px solid#32495E;
+        }
+        
+        .Rectangle56 {
+            height: 664px;
+            width: 1400px;
+            /* left: 0; */
+            top: 800px;
+            border-radius: 0px;
+            background: #32495E;
+            position: relative;
+        }
+        
+        .Rectangle56 h1 {
+            position: absolute;
+            left: 8.21%;
+            /* right: 68.71%; */
+            top: 5.23%;
+            /* bottom: 85.98%; */
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 52px;
+            /* or 129% */
+            text-transform: uppercase;
+            color: #F9F9F9;
+            ;
+        }
+        
+        .Group65 {
+            position: absolute;
+            height: 324px;
+            width: 281px;
+            left: 115px;
+            top: 172px;
+            /* border-radius: 0px; */
+            /* background-color: burlywood; */
+            /* border: 1px solid; */
+        }
+        
+        .rectangle50 {
+            position: absolute;
+            height: 152px;
+            width: 281px;
+            background: url(/assets/image/Rectangle\ 50.png);
+        }
+        
+        .rectangle50 img {
+            position: absolute;
+            height: 36px;
+            width: 39px;
+            left: 126px;
+            top: 58px;
+            opacity: 1
+        }
+        
+        .rectangle49 {
+            position: absolute;
+            /* background: #E95258; */
+            height: 185px;
+            width: 281px;
+            /* left: 115px; */
+            top: 152px;
+            border-radius: 0px;
+        }
+        
+        .rectangle49 h1 {
+            position: absolute;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+            color: #F9F9F9;
+            left: 4.64%;
+            top: 3.4%;
+        }
+        
+        .rectangle49 p {
+            position: absolute;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #F9F9F9;
+            left: 4.64%;
+            top: 39.31%;
+        }
+        
+        .fl-1 {
+            position: absolute;
+            display: flex;
+            top: 172px;
+            left: 401px;
+        }
+        
+        .fl-1 div p {
+            color: #F9F9F9;
+            padding: 10px;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+            width: 241px;
+        }
+        
+        .fl-1 div:hover {
+            background: #E95258;
+            /* opacity: 0.3; */
+        }
+        
+        .Group65 .rectangle49:hover {
+            background: #E95258;
+        }
+        
+        .component3 {
+            position: absolute;
+            left: 45%;
+            top: 540px;
+            width: 700px;
+            height: 800px;
+        }
+        
+        .component3 .button {
+            background-color: transparent;
+            border: 1px solid #F9F9F9;
+            box-sizing: border-box;
+            border-radius: 25px;
+            Width: 160px;
+            Height: 50px;
+            color: #F9F9F9;
+            cursor: pointer;
+        }
+        
+        .component3 .button:hover {
+            background: #F9F9F9;
+            color: #32495E;
+            border: 1px solid #32495E;
+        }
+        
+        .Rectangle57 {
+            position: relative;
+            height: 844px;
+            width: 1400px;
+            left: 0px;
+            top: 778px;
+            background: #F9F9F9;
+        }
+        
+        .Rectangle57 h1 {
+            position: absolute;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 52px;
+            color: #32495E;
+            left: 8.21%;
+            top: 5.23%;
+            text-transform: uppercase;
+        }
+        
+        .fl-2 {
+            position: relative;
+            display: flex;
+            left: 8.21%;
+            top: 15.23%;
+            padding: 50px 0px;
+            flex-wrap: wrap;
+        }
+        
+        .fl-2 div p {
+            /* left: 0px;
+    top: 1464px; */
+            /* border-radius: 0px; */
+            /* position: absolute; */
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #32495E;
+            height: 68px;
+            width: 230px;
+            text-align: left;
+            /* left: 115px;
+    top: 1794px;
+    border-radius: nullpx; */
+        }
+        
+        .fl-2 div h2 {
+            /* left: 0px;
+    top: 1464px; */
+            /* border-radius: 0px; */
+            /* position: absolute; */
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+            color: #32495E;
+            height: 20px;
+            width: 230px;
+            /* left: 115px; */
+            /* top: 1764px; */
+            /* border-radius: nullpx; */
+            /* text-align: left; */
+        }
+        
+        .fl-2 div {
+            padding: 0px 95px 35px 0px;
+        }
+        
+        .component4 {
+            position: absolute;
+            left: 45%;
+            top: 740px;
+            width: 700px;
+            height: 800px;
+        }
+        
+        .component4 .button {
+            background-color: transparent;
+            border: 1px solid#32495E;
+            box-sizing: border-box;
+            border-radius: 25px;
+            Width: 160px;
+            Height: 50px;
+            color: #32495E;
+            cursor: pointer;
+        }
+        
+        .component4 .button:hover {
+            background: #32495E;
+            color: white;
+            border: 1px solid white;
+        }
+        
+        .Rectangle79 {
+            position: relative;
+            height: 639px;
+            width: 1400px;
+            left: 0px;
+            top: 778px;
+            border-radius: 0px;
+            /* background-color: yellowgreen; */
+        }
+        
+        .Rectangle79 h1 {
+            position: absolute;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 52px;
+            color: #32495E;
+            left: 8.21%;
+            top: 5.23%;
+            text-transform: uppercase;
+        }
+        
+        #customers td,
+        #customers th {
+            /* border: 1px solid yellow; */
+            padding: 15px 15px 15px 0px;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #8093AC;
+        }
+        
+        #customers {
+            /* font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; */
+            width: 80%;
+            height: 20px;
+            left: 115px;
+            top: 139px;
+            position: absolute;
+        }
+        
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            /* background-color: grey;
+    color: white; */
+        }
+        
+        .component5 {
+            position: absolute;
+            left: 45%;
+            top: 540px;
+            width: 700px;
+            height: 800px;
+        }
+        
+        .component5 .button {
+            background-color: transparent;
+            border: 1px solid#32495E;
+            box-sizing: border-box;
+            border-radius: 25px;
+            Width: 160px;
+            Height: 50px;
+            color: #32495E;
+            cursor: pointer;
+        }
+        
+        .component5 .button:hover {
+            background: #32495E;
+            color: white;
+            border: 1px solid white;
+        }
+        
+        .Rectangle69 {
+            height: 919px;
+            width: 1400px;
+            left: 0px;
+            top: 778px;
+            border-radius: 0px;
+            background: #32495E;
+            position: relative;
+        }
+        
+        .Rectangle69 h1 {
+            position: absolute;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 52px;
+            text-transform: uppercase;
+            color: #F9F9F9;
+            left: 8.21%;
+            top: 5.23%;
+        }
+        
+        .Rectangle69 ul {
+            position: absolute;
+            list-style-type: none;
+            margin: 0;
+            padding: 0px;
+            margin: 0 auto;
+            left: 7.21%;
+            top: 16.23%;
+        }
+        
+        .Rectangle69 li {
+            display: inline-block;
+            font-size: large;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        .Rectangle69 li a {
+            /* color: blACK; */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            /* 3 */
+            color: #F9F9F9;
+        }
+        
+        .cards {
+            width: 1170px;
+            left: 115px;
+            top: 210px;
+            position: absolute;
+            display: flex;
+            /* left: 8.21%;
+    top: 15.23%; */
+            /* padding: 50px 0px; */
+            flex-wrap: wrap;
+        }
+        
+        .component6 {
+            position: absolute;
+            left: 45%;
+            top: 800px;
+            width: 700px;
+            height: 800px;
+        }
+        
+        .component6 .button {
+            background-color: transparent;
+            border: 1px solid #F9F9F9;
+            box-sizing: border-box;
+            border-radius: 25px;
+            Width: 160px;
+            Height: 50px;
+            color: #F9F9F9;
+            cursor: pointer;
+        }
+        
+        .component6 .button:hover {
+            background: #F9F9F9;
+            color: #32495E;
+            border: 1px solid #32495E;
+        }
